@@ -1,8 +1,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 
 // ⚠️ ВСТАВЬ СВОЙ ТОКЕН СЮДА (НЕ ОТПРАВЛЯЙ НИКОМУ)
-const TOKEN = "8632053933:AAEt6LbLw4zry19ZFt8YDOnzoajWdKWmmuQ
-";
+const TOKEN = "8632053933:AAEt6LbLw4zry19ZFt8YDOnzoajWdKWmmuQ";
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 
